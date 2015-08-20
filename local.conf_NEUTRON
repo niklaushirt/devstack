@@ -3,7 +3,7 @@
 #
 # Set IP Address of OpenStack Controller
 #
-#HOST_IP_IFACE=eth1
+HOST_IP_IFACE=eth1
 HOST_IP=192.168.27.100
 PUBLIC_NETWORK_GATEWAY=172.24.4.2
 FLOATING_RANGE=172.24.4.0/24
@@ -16,7 +16,7 @@ ERROR_ON_CLONE=False
 #
 # set current branch
 #
-RELEASE_BRANCH=stable/juno
+RELEASE_BRANCH=stable/kilo
 
 #
 # Allow services to be hosted on additional machines
